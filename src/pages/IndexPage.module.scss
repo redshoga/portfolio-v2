@@ -1,0 +1,16 @@
+@import "../assets/styles/variables.scss";
+
+// scopped
+.container {
+  margin: 0 auto;
+  background-color: $color-content-bg;
+  min-height: 100%;
+
+  @media screen and (min-width: 0) and (max-width: $container-width) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: $container-width) {
+    width: $container-width;
+  }
+}

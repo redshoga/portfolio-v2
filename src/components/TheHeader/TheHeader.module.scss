@@ -1,0 +1,46 @@
+@import "../../assets/styles/variables";
+
+.container {
+  border-bottom: 1px solid $color-border;
+  background-color: $color-content-bg;
+  width: 100%;
+  height: $header-height;
+  position: relative;
+}
+
+.box {
+  background-color: $color-main;
+  height: $header-color-height;
+  text-align: center;
+  overflow: visible;
+}
+
+.icon {
+  margin-top: $header-color-padding-top;
+  width: $header-icon-size;
+  border-radius: 50%;
+}
+
+.title {
+  @include font-accent;
+
+  margin-top: $margin-size-1;
+}
+
+.urlsContainer {
+  position: absolute;
+  bottom: 0;
+}
+
+.link {
+  display: inline-block;
+  cursor: pointer;
+  padding: $margin-size-1;
+  padding-bottom: $margin-size-1 + 4px;
+
+  &:hover {
+    padding-bottom: $margin-size-1;
+    border-bottom: 4px solid $color-main;
+    box-sizing: border-box;
+  }
+}

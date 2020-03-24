@@ -1,7 +1,27 @@
 @import "~normalize.css";
+@import "./variables.scss";
 
 body {
-  background-color: #fafafa;
-  padding: 8px;
-  font-family: sans-serif;
+  @include font-normal;
+
+  color: $color-black;
+  background-color: $color-body-bg;
+  // https://note.com/
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial, メイリオ, Meiryo, sans-serif;
+}
+
+html,
+body, {
+  height: 100%;
+}
+
+a:link,
+a:visited {
+  color: $color-black;
+  text-decoration: none;
+}
+
+// for ViewerHtml
+.color-link {
+  color: $color-main !important;
 }
