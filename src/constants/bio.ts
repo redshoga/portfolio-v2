@@ -3,6 +3,22 @@ import { Props as FooterProps } from "../components/TheFooter/TheFooter";
 
 import ImageIcon from "../assets/images/icon.jpg";
 
+import Image2xVideoExtension from "../assets/images/2x-video-extension.png";
+import ImageAwesomeMinEditorFire from "../assets/images/awesome-min-editor-fire.png";
+import ImageCafe from "../assets/images/cafe.png";
+import ImageCoinPriceAlertTweetBot from "../assets/images/coin-price-alert-tweet-bot.jpg";
+import ImageDeletedTweetsGetter from "../assets/images/deleted tweets getter.png";
+import ImageMonesub from "../assets/images/monesub.png";
+import ImageMouseCursorJamming from "../assets/images/Mouse Cursor Jamming.png";
+import ImageNomosaic from "../assets/images/nomosaic.png";
+import ImageNpxRedshoga from "../assets/images/npx redshoga.png";
+import ImagePortfolio from "../assets/images/portfolio.png";
+import ImageRandomImageViewer from "../assets/images/RandomImageViewer.png";
+import ImageRandomQiitaExtension from "../assets/images/random-qiita-extension.png";
+import ImageShiroppoi from "../assets/images/shiroppoi.png";
+import ImageSymmetryFace from "../assets/images/SymmetryFace.jpeg";
+import ImageZipimage from "../assets/images/zipimage.png";
+
 type SectionBase = {
   id: string;
   title: string;
@@ -78,19 +94,19 @@ export const bio: BioType = {
           title: "nomosaic",
           description:
             "機械学習を用いた画像からモザイクを除去するサービス.(Netlify,Lambda,ECS,ECR,S3)",
-          imageUrl: "images/nomosaic.png",
+          imageUrl: ImageNomosaic,
           url: "https://nomosaic.netlify.com/"
         },
         {
           title: "awesome-min-editor-fire",
           description: "オンライン同期メモ.(JS,Firebase)",
-          imageUrl: "images/awesome-min-editor-fire.png",
+          imageUrl: ImageAwesomeMinEditorFire,
           url: "https://github.com/redshoga/awesome-min-editor-fire"
         },
         {
           title: "2x Speed",
           description: "開いてるタブの動画を倍速にするChrome拡張機能.(JS)",
-          imageUrl: "images/2x-video-extension.png",
+          imageUrl: Image2xVideoExtension,
           url:
             "https://chrome.google.com/webstore/detail/2x-speed/olomblpgcmhcgpijaioadbecpidmmdmb"
         },
@@ -98,74 +114,74 @@ export const bio: BioType = {
           title: "Random Qiita",
           description:
             "最近の10000件のQiita投稿からランダムに1つ取得し表示するChrome拡張機能.(JS,Firebase)",
-          imageUrl: "images/random-qiita-extension.png",
+          imageUrl: ImageRandomQiitaExtension,
           url:
             "https://chrome.google.com/webstore/detail/random-qiita/boompcfpganckjaomimmlppibifhbcji"
         },
         {
           title: "ポートフォリオ",
-          description: "このサイト.(JS,Vue,Nuxt)",
-          imageUrl: "images/portfolio.png",
+          description: "このサイト.(TS,React)",
+          imageUrl: ImagePortfolio,
           url: "https://github.com/redshoga/portfolio"
         },
         {
           title: "サブマネ",
           description: "サブスクリプションサービス管理サービス",
-          imageUrl: "./images/monesub.png",
+          imageUrl: ImageMonesub,
           url: "https://subsmgr.netlify.com"
         },
         {
           title: "coin-price-alert-tweet-bot",
           description:
             "仮想通貨の急変動をつぶやくTwitter BOT(休止中).(Python,Twitter API)",
-          imageUrl: "images/coin-price-alert-tweet-bot.jpg",
+          imageUrl: ImageCoinPriceAlertTweetBot,
           url: "https://github.com/redshoga/coin-price-alert-tweet-bot"
         },
         {
           title: "npx redshoga",
           description:
             "コマンド実行(npx redshoga)で表示される自己紹介カード.(JS,npm)",
-          imageUrl: "images/npx redshoga.png",
+          imageUrl: ImageNpxRedshoga,
           url: "https://qiita.com/redshoga/items/f1b5b003650172c54044"
         },
         {
           title: "Mouse Cursor Jamming",
           description:
             "マウスカーソルを操る(ように見せる)CSS,JSの手法の提案.(CSS,JS)",
-          imageUrl: "images/Mouse Cursor Jamming.png",
+          imageUrl: ImageMouseCursorJamming,
           url: "https://qiita.com/redshoga/items/8f8579a60a8e5ed49d6d"
         },
         {
           title: "SymmetryFace",
           description:
             "顔認証を行い左右対称にして返すだけのTwitterボット(休止中).(Python,Twitter API)",
-          imageUrl: "images/SymmetryFace.jpeg",
+          imageUrl: ImageSymmetryFace,
           url: "https://qiita.com/redshoga/items/964dd70caa966c03f879"
         },
         {
           title: "ZIP⇔画像変換器",
           description:
             "ZIPファイルとPNG画像を相互変換することができるウェブサービス.(JS,Canvas)",
-          imageUrl: "images/zipimage.png",
+          imageUrl: ImageZipimage,
           url: "https://redshoga.github.io/zipimage/"
         },
         {
           title: "削除したツイートだけ取ってくるシステム.(Python,Twitter API)",
           description: "タイトル通り.",
-          imageUrl: "images/deleted tweets getter.png",
+          imageUrl: ImageDeletedTweetsGetter,
           url: "https://qiita.com/redshoga/items/220f11fbe7bd4f8c61f1"
         },
         {
           title: "RandomImageViewer",
           description: "Imgurからランダムに画像を表示するウェブサービス.(JS)",
-          imageUrl: "images/RandomImageViewer.png",
+          imageUrl: ImageRandomImageViewer,
           url: "https://redshoga.github.io/RandomImageViewer/"
         },
         {
           title: "白っぽい文字で動作するプログラミング言語",
           description:
             "白っぽい文字で動作するプログラミング言語を実行できるウェブサービス,(Brainf*ck,JS)",
-          imageUrl: "images/shiroppoi.png",
+          imageUrl: ImageShiroppoi,
           url: "https://redshoga.github.io/shiroppoi/"
         }
       ]
@@ -330,27 +346,27 @@ export const bio: BioType = {
           title: "nomosaic",
           description: "モザイク削除サービス",
           url: "https://www.figma.com/file/HPWnXhGOECMEcbtvNPytsxIo/nomosaic",
-          imageUrl: "./images/nomosaic.png"
+          imageUrl: ImageNomosaic
         },
         {
           title: "ポートフォリオ",
           description: "現在表示中のポートフォリオ",
           url: "https://www.figma.com/file/SC3r9fvq9iSNltWn7J8xJDC1/portfolio",
-          imageUrl: "./images/portfolio.png"
+          imageUrl: ImagePortfolio
         },
         {
           title: "monesub",
           description: "サブスクリプションサービス管理サービス",
           url:
             "https://www.figma.com/file/esosmF7RkEuu9vXC0cuypxMg/%E3%82%B5%E3%83%96%E3%82%B9%E3%82%AF-%E4%BB%AE%E5%90%8D",
-          imageUrl: "./images/monesub.png"
+          imageUrl: ImageMonesub
         },
         {
           title: "カフェアプリ",
           description: "電子決済カフェ注文アプリ",
           url:
             "https://www.figma.com/proto/GnlNVL8X4Ak5vgzFBJTXQKk1/Payment-Service?scaling=scale-down&node-id=4%3A281",
-          imageUrl: "./images/cafe.png"
+          imageUrl: ImageCafe
         }
       ]
     },

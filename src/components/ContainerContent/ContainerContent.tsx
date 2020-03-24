@@ -8,9 +8,9 @@ export type Props = {
 };
 
 export const ContainerContent: React.FC<Props> = (props: Props) => (
-  <div className={styles.container}>
-    <div className={styles.title}>{props.title}</div>
-    <div className={styles.description}>{props.description}</div>
+  <section className={styles.container}>
+    <h1 className={styles.title}>{props.title}</h1>
+    <p className={styles.description}>{props.description}</p>
     {props.children}
-  </div>
+  </section>
 );

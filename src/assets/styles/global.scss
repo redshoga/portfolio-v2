@@ -4,8 +4,10 @@
 body {
   @include font-normal;
 
-  background-color: #fafafa;
-  font-family: sans-serif;
+  color: $color-black;
+  background-color: $color-body-bg;
+  // https://note.com/
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial, メイリオ, Meiryo, sans-serif;
 }
 
 html,
@@ -19,7 +21,7 @@ a:visited {
   text-decoration: none;
 }
 
-// global
+// for ViewerHtml
 .color-link {
   color: $color-main !important;
 }

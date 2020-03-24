@@ -3,6 +3,7 @@
 .container {
   padding: $margin-size-1 * 3;
   border-bottom: 1px solid $color-border;
+  overflow: hidden;
 
   &:last-child {
     border-bottom: none;
@@ -10,7 +11,9 @@
 }
 
 .title {
-  @include font-bold;
+  @include font-accent;
+
+  margin: 0;
 }
 
 .title,

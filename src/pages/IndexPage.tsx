@@ -13,7 +13,10 @@ export const IndexPage: React.FC = () => {
   const renderSection = (section: Section): JSX.Element => {
     if (section.type === "html") return <ViewerHtml html={section.html} />;
     if (section.type === "list") return <ViewerList list={section.list} />;
-    if (section.type === "links") return <ViewerLinks links={section.links} />;
+    if (section.type === "links")
+      return (
+        <ViewerLinks links={section.links} footerLink={section.footerLink} />
+      );
     if (section.type === "images")
       return <ViewerImages images={section.images} />;
     throw new Error("bio.ts is not correct");

@@ -11,7 +11,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Jest + Enzyme component tests
 - CSS Module, SASS Samples (`*.module.scss` is used in the code)
 - stylelint (auto linting, format *.css, *.scss files on save)
-- Typesafe enviroment variables settings (Please refer to `enviroments.ts`)
 - Normalize.css
 - VSCode debugger settings
 - `React.StrictMode` settings
@@ -23,7 +22,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
 ## How to debug on Chrome
 

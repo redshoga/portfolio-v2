@@ -2,12 +2,9 @@
 
 // scopped
 .container {
-  @include shadow-normal;
-
   margin: 0 auto;
-  background-color: $color-background;
+  background-color: $color-content-bg;
   min-height: 100%;
-  // overflow: hidden;
 
   @media screen and (min-width: 0) and (max-width: $container-width) {
     width: 100%;

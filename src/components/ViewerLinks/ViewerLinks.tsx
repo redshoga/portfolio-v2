@@ -17,13 +17,13 @@ export const ViewerLinks: React.FC<Props> = (props: Props) => (
   <div>
     <ul className={styles.container}>
       {props.links.map(link => (
-        // clearfix
         <li key={link.url} className={styles.list}>
-          <a href={link.url}>
-            <div className={styles.title}>{link.title}</div>
-            {/* color-link */}
-            <div className={styles.subTitle}>{link.subTitle}</div>
-          </a>
+          <div className={styles.title}>
+            <a href={link.url}>{link.title}</a>
+          </div>
+          <div className={styles.subTitle}>
+            <a href={link.url}>{link.subTitle}</a>
+          </div>
         </li>
       ))}
     </ul>

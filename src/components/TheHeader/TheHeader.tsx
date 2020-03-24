@@ -11,17 +11,17 @@ export type Props = {
 };
 
 export const TheHeader: React.FC<Props> = (props: Props) => (
-  <div className={styles.theHeader}>
+  <header className={styles.container}>
     <div className={styles.box}>
-      <img className={styles.image} src={props.imageUrl} alt={"icon"} />
+      <img className={styles.icon} src={props.imageUrl} alt={"icon"} />
       <div className={styles.title}>{props.title}</div>
-      <div className={styles.urlsContainer}>
+      <nav className={styles.urlsContainer}>
         {props.links.map(link => (
-          <a key={link.url} href={link.url}>
-            <div>{link.title}</div>
+          <a key={link.url} href={link.url} className={styles.link}>
+            {link.title}
           </a>
         ))}
-      </div>
+      </nav>
     </div>
-  </div>
+  </header>
 );
