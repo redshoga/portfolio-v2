@@ -1,1 +1,51 @@
-$main-color: rgb(77, 158, 193);
+// variables
+$container-width: 600px;
+
+// font
+@mixin font-bold {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+}
+
+@mixin font-normal {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@mixin bold {
+  // add
+  font-weight: 900;
+}
+
+// color
+$color-background: #fafafa;
+$color-main: #ea0066;
+$color-white: #fff;
+$color-black: #2d2d2d;
+$color-border: #d0d0d0;
+$color-sub: #ea0066;
+
+// shadow
+@mixin shadow-normal {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@mixin shadow-image {
+  // add
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+// header
+$header-height: 280px;
+$header-color-height: 150px;
+$header-color-padding-top: 60px;
+$header-icon-size: 120px;
+$header-icon-border-size: 5px;
+
+// footer
+$footer-height: 50px;
+
+// margin
+$margin-size-1: 8px;

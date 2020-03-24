@@ -1,0 +1,19 @@
+@import "../assets/styles/variables.scss";
+
+// scopped
+.container {
+  @include shadow-normal;
+
+  margin: 0 auto;
+  background-color: $color-background;
+  min-height: 100%;
+  // overflow: hidden;
+
+  @media screen and (min-width: 0) and (max-width: $container-width) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: $container-width) {
+    width: $container-width;
+  }
+}

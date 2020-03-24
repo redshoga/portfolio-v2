@@ -1,0 +1,19 @@
+@import "../../assets/styles/variables.scss";
+
+.container {
+  padding: $margin-size-1 * 3;
+  border-bottom: 1px solid $color-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.title {
+  @include font-bold;
+}
+
+.title,
+.description {
+  margin-bottom: $margin-size-1;
+}

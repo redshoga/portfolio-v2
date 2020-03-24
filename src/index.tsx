@@ -3,10 +3,11 @@ import ReactDOM from "react-dom";
 import "./assets/styles/global.scss";
 import * as serviceWorker from "./serviceWorker";
 import { validateEnviroments } from "./enviroments";
+import { IndexPage } from "./pages/IndexPage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>hello</div>
+    <IndexPage />
   </React.StrictMode>,
   document.getElementById("root")
 );

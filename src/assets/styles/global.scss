@@ -1,7 +1,25 @@
 @import "~normalize.css";
+@import "./variables.scss";
 
 body {
+  @include font-normal;
+
   background-color: #fafafa;
-  padding: 8px;
   font-family: sans-serif;
+}
+
+html,
+body, {
+  height: 100%;
+}
+
+a:link,
+a:visited {
+  color: $color-black;
+  text-decoration: none;
+}
+
+// global
+.color-link {
+  color: $color-main !important;
 }
