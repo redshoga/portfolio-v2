@@ -1,32 +1,22 @@
 # portfolio-v2
 
+The redshoga's portfolio v2.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## What is "gottani"
-
-**ごった煮[gottani]**
-
-(n) various foods cooked together,hodgepodge,hotchpotch,mulligan stew
 
 ## Features
 
 - TypeScript (strict: true)
-- React Router
-- React Redux (using Ducks pattern)
-- Redux-Saga
 - Storybook
 - Jest + Enzyme component tests
-- Typesafe HTTP client ([aspida](https://github.com/aspidajs/aspida/tree/master/packages/aspida))
 - CSS Module, SASS Samples (`*.module.scss` is used in the code)
 - stylelint (auto linting, format *.css, *.scss files on save)
 - Typesafe enviroment variables settings (Please refer to `enviroments.ts`)
 - Normalize.css
 - VSCode debugger settings
 - `React.StrictMode` settings
-- Redux dev tools ([redux-devtools-extension](https://github.com/reduxjs/redux-devtools))
 - Analyzer JavaScript code bloat through source maps (using `source-map-explorer`)
 - CI task config on GitHub Actions (Please refer to `/.github/workflows/ci.yml`)
-- Reducer snapshot test (using [reducer-tester](https://github.com/akameco/reducer-tester))
 
 ## Recommend VSCode Extensions
 
@@ -34,10 +24,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-
-## Recommend Chrome Extensions
-
-- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=ja)
 
 ## How to debug on Chrome
 
